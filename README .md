@@ -10,23 +10,26 @@ https://github.com/codespaces
 wget https://raw.githubusercontent.com/Hitasyurekk/aligned-layer-phase3/main/rust.sh && chmod +x rust.sh && ./rust.sh
 ```
 
-## 2. Adım Foundry kurulumu
-
+## 2. Install Foundry
+```
 curl -L -o foundry.sh https://raw.githubusercontent.com/Hitasyurekk/aligned-layer-phase3/main/foundry.sh && chmod +x foundry.sh && ./foundry.sh
 
-
-## 3. Adım Config kurulum
-
+```
+## 3. Update Config 
+```
 sudo apt update && sudo apt install pkg-config libssl-dev
-
+```
 
 ## 4. Adım private key girme 
-
+```
 npm install -g cast-cli
-
+```
+```
 source ~/.bashrc
-
+```
+```
 [ -d ~/.aligned_keystore ] && rm -rf ~/.aligned_keystore && echo "Deleted existing directory ~/.aligned_keystore." ; mkdir -p ~/.aligned_keystore && cast wallet import ~/.aligned_keystore/keystore0 --interactive
+```
 
 ## 5. Adım Aligned dosyalarını indirme 
 
