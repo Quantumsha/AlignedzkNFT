@@ -1,4 +1,4 @@
-# aligned-layer-phase3
+# Aligned-layer-Testnet 3
 
 Use CodeSpace or Gitpod
 
