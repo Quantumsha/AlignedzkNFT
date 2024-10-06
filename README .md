@@ -12,9 +12,17 @@ wget https://raw.githubusercontent.com/Hitasyurekk/aligned-layer-phase3/main/rus
 
 ## 2. Install Foundry
 ```
-curl -L -o foundry.sh https://raw.githubusercontent.com/Hitasyurekk/aligned-layer-phase3/main/foundry.sh && chmod +x foundry.sh && ./foundry.sh
+curl -L https://foundry.paradigm.xyz | bash
 
 ```
+
+```
+source /home/codespace/.bashrc
+```
+```
+foundryup
+```
+
 ## 3. Update Config 
 ```
 sudo apt update && sudo apt install pkg-config libssl-dev
