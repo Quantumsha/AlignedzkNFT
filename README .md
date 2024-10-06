@@ -4,10 +4,11 @@ Use CodeSpace or Gitpod
 
 https://github.com/codespaces
 
-## 1. Adım Rust kurulum
+## 1. Install Rust
 
-
+```
 wget https://raw.githubusercontent.com/Hitasyurekk/aligned-layer-phase3/main/rust.sh && chmod +x rust.sh && ./rust.sh
+```
 
 ## 2. Adım Foundry kurulumu
 
