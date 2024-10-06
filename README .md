@@ -1,6 +1,6 @@
 # aligned-layer-phase3
 
-Ben burada github codespace kullandım sizde kullanabilirsiniz. 
+Use CodeSpace or Gitpod
 
 https://github.com/codespaces
 
